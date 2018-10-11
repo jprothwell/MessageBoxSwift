@@ -1,0 +1,24 @@
+PODS:
+  - MessageBoxSwift (0.1.0):
+    - TopViewControllerSwift
+  - TopViewControllerSwift (0.1.0)
+
+DEPENDENCIES:
+  - MessageBoxSwift (from `../`)
+  - TopViewControllerSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TopViewControllerSwift
+
+EXTERNAL SOURCES:
+  MessageBoxSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MessageBoxSwift: c69e946cbc06aa442a2ef8300cee17f0a0e12122
+  TopViewControllerSwift: bb9896fc4bc71ab2d6eaaa3c7572938897d3ddca
+
+PODFILE CHECKSUM: 6624ae3c1a46d7f03fc2f157bb1cde72648165f9
+
+COCOAPODS: 1.5.3

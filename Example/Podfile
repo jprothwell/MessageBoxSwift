@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'MessageBoxSwift_Example' do
   pod 'MessageBoxSwift', :path => '../'
+  pod 'TopViewControllerSwift'
 
   target 'MessageBoxSwift_Tests' do
     inherit! :search_paths
