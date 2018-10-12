@@ -2,11 +2,11 @@ import UIKit
 import TopViewControllerSwift
 
 
-public func MessageBox(_ title: String
-    , message: String? = nil
+public func MessageBox(_ message: String
+    , title: String? = ""
+    , defaultActionTitle: String? = "OK"
+    , cancelActionTitle: String? = "Cancel"
     , preferredStyle: UIAlertControllerStyle = .alert
-    , defaultActionTitle: String? = "确定"
-    , cancelActionTitle: String? = "取消"
     , defaultHandler: (() ->Void)? = nil
     , cancelHandler: (() -> Void)? = nil)
 {
