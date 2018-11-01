@@ -21,9 +21,14 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        MessageBox("消息内容")
+        
     }
 
+    @IBAction func onButton(_ sender: Any) {
+        
+        MessageBox("消息内容",cancelActionTitle:"no")
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

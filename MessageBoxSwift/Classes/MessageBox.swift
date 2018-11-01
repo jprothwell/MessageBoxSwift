@@ -4,8 +4,8 @@ import TopViewControllerSwift
 
 public func MessageBox(_ message: String
     , title: String? = ""
-    , defaultActionTitle: String? = "OK"
-    , cancelActionTitle: String? = "Cancel"
+    , defaultActionTitle: String? = "确定"
+    , cancelActionTitle: String? = nil
     , preferredStyle: UIAlertControllerStyle = .alert
     , defaultHandler: (() ->Void)? = nil
     , cancelHandler: (() -> Void)? = nil)
@@ -21,10 +21,10 @@ public func MessageBox(_ message: String
     }
     alert.addAction(defaultAction)
     
-    if cancelHandler != nil
-    {
+    if let cancelActionTitle = cancelActionTitle {
+        
         let cancelAction = UIAlertAction(title: cancelActionTitle, style: .cancel) { (alert) in
-            cancelHandler!()
+            cancelHandler?()
         }
         alert.addAction(cancelAction)
     }
