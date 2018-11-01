@@ -12,14 +12,14 @@ public func MessageBox(_ message: String
 {
     let alert = UIAlertController(title: title, message: message, preferredStyle: preferredStyle)
     
-    let defaultAction = UIAlertAction(title: defaultActionTitle, style: .default) { (alert) in
+    if let defaultActionTitle = defaultActionTitle {
         
-        if defaultHandler != nil
-        {
-            defaultHandler!()
+        let defaultAction = UIAlertAction(title: defaultActionTitle, style: .default) { (alert) in
+            
+            defaultHandler?()
         }
+        alert.addAction(defaultAction)
     }
-    alert.addAction(defaultAction)
     
     if let cancelActionTitle = cancelActionTitle {
         

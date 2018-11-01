@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MessageBoxSwift'
-  s.version          = '0.1.3'
+  s.version          = '0.1.14'
   s.summary          = 'awasome MessageBoxSwift.'
 
 # This description is used to generate tags and improve search results.

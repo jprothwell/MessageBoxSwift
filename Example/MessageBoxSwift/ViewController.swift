@@ -26,7 +26,7 @@ class ViewController: UIViewController {
 
     @IBAction func onButton(_ sender: Any) {
         
-        MessageBox("消息内容",cancelActionTitle:"no")
+        MessageBox("消息内容")
         
     }
     override func didReceiveMemoryWarning() {
