@@ -1,6 +1,6 @@
 {
   "name": "MessageBoxSwift",
-  "version": "0.1.0",
+  "version": "0.4.2",
   "summary": "awasome MessageBoxSwift.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/jprothwell/MessageBoxSwift",
@@ -13,13 +13,13 @@
   },
   "source": {
     "git": "https://github.com/jprothwell/MessageBoxSwift.git",
-    "tag": "0.1.0"
+    "tag": "0.4.2"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "MessageBoxSwift/Classes/**/*",
-  "swift_version": "3.0",
+  "swift_versions": "4.2",
   "dependencies": {
     "TopViewControllerSwift": [
 

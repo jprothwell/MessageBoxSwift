@@ -1,7 +1,7 @@
 PODS:
-  - MessageBoxSwift (0.1.0):
+  - MessageBoxSwift (0.4.2):
     - TopViewControllerSwift
-  - TopViewControllerSwift (0.1.0)
+  - TopViewControllerSwift (0.1.2)
 
 DEPENDENCIES:
   - MessageBoxSwift (from `../`)
@@ -16,9 +16,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MessageBoxSwift: c69e946cbc06aa442a2ef8300cee17f0a0e12122
-  TopViewControllerSwift: bb9896fc4bc71ab2d6eaaa3c7572938897d3ddca
+  MessageBoxSwift: 42f1e613aebb34f06b6f9401d0e8d61f2bb80bbf
+  TopViewControllerSwift: 3964fd811badcdc15abdd15d1f7decc9b8d51c70
 
 PODFILE CHECKSUM: 6624ae3c1a46d7f03fc2f157bb1cde72648165f9
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.0.beta.3

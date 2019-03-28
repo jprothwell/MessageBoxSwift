@@ -7,397 +7,358 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1884DCF376FE0284E85EB78CB65FAB00 /* TopViewControllerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4E71439F574596CF64D67E0F17B0EE /* TopViewControllerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4282E60FE5AC9184AD2D417F5F67F232 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7BBC87E572EAA1B145E2786D084429 /* Foundation.framework */; };
-		44F5602D55E099FA67699327B3FD2B2F /* Pods-MessageBoxSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB10015FC761EBE9A7A0DCCEFF22EE71 /* Pods-MessageBoxSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57B6220E9CD5B2F506BD6CA6E4D5DD30 /* MessageBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F47950283A61482D896444FF009EA1C /* MessageBox.swift */; };
-		6AFE7FAF45D629607E783ABB2AA03FA0 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75AFC2B8B8F446DAEB1A044E3F9EC7E /* TopViewController.swift */; };
-		721046F32F21A3E2303CC1B7FA79460E /* Pods-MessageBoxSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A99A9B9AE0118283DEE35D3CF5E5DADA /* Pods-MessageBoxSwift_Example-dummy.m */; };
-		79F262EE8052086243D48F7E02AD93AF /* Pods-MessageBoxSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF231D9540EA130759B8C1B1A6B25E1 /* Pods-MessageBoxSwift_Tests-dummy.m */; };
-		9AB26F12C2043A2146F8FB3787F155AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7BBC87E572EAA1B145E2786D084429 /* Foundation.framework */; };
-		A79E30DC3E1293CEB1B9B539AAB73251 /* TopViewControllerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB60FD14CFECC04A9739077F1A8887F9 /* TopViewControllerSwift.framework */; };
-		C48476946B9E56C290A33DDB9A6BAF02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7BBC87E572EAA1B145E2786D084429 /* Foundation.framework */; };
-		C69854A7D55FFD65DCF0CCBCDCF475E3 /* MessageBoxSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F65DD8CA84086450CBE8DB23FE3E10B /* MessageBoxSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD964D9D9A56374E1360ACC2E4FF8CA0 /* MessageBoxSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C0C2DFF3C27C00FC576A079FB393AA /* MessageBoxSwift-dummy.m */; };
-		D5B1B48F5F2C88587ED5AFC5E66D2646 /* Pods-MessageBoxSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D609C960B4099AF456FCE8C9DD0596AE /* Pods-MessageBoxSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2E9A879390DF5A10B4865BBC3BE016E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7BBC87E572EAA1B145E2786D084429 /* Foundation.framework */; };
-		F6FAD0211CB44A8E1B219E01C50C5F3E /* TopViewControllerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED804996F4D657F1B4A937483978562 /* TopViewControllerSwift-dummy.m */; };
+		04BA362544A6B4282C86BBB4CEEEE131 /* MessageBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2BD2AE668D0DCEE1C3118AB91F71AB /* MessageBox.swift */; };
+		2B561528D5F3087EDA572ECC9E040718 /* MessageBoxSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F01CCDA4908E35D8F0A3B612CC690B0B /* MessageBoxSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35276F9C8CE1A4EF668E31B63FC7C944 /* Pods-MessageBoxSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 709470187AF4D3B7D6A1513983412CBB /* Pods-MessageBoxSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47FF0FC809075968C23E909BA999D58C /* Pods-MessageBoxSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9FB7F80ED3952C78E03D578C74FCC7 /* Pods-MessageBoxSwift_Example-dummy.m */; };
+		54EEF43426CA74F2547FF66C81F4D4DB /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17DE80AC9AD05911A0B90F87808A5B0 /* TopViewController.swift */; };
+		7848E10300DF3053FEEA5D064546A6EC /* Pods-MessageBoxSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B70E9276EE92C25598450930352777 /* Pods-MessageBoxSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		817C50106F78ED71FE6280CFFE115C2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12F850E24DE839DA4F620D760B5B9DB6 /* Foundation.framework */; };
+		8484CF261C3F2511E6562096C71FC17E /* Pods-MessageBoxSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BF5B1231E72ED0E4F219A0458E0934 /* Pods-MessageBoxSwift_Tests-dummy.m */; };
+		A31E18EE914C57920194BE05C3A6F820 /* TopViewControllerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C44DE9D33473252A9B7792BB79E6627 /* TopViewControllerSwift-dummy.m */; };
+		A352A48EFB65420180E8C6BF9D4BDED2 /* TopViewControllerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F79188C070A5C6D210859464C72817 /* TopViewControllerSwift.framework */; };
+		A4D08B88FD08320F560E4FB04FABCD91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12F850E24DE839DA4F620D760B5B9DB6 /* Foundation.framework */; };
+		CC9BA8520935C45DD0021F7D3EE649B5 /* TopViewControllerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 067F5E2C265AC331373CCCCACD756912 /* TopViewControllerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0B31526AEBA86B16E647BB3D9E00912 /* MessageBoxSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9A1882C2E30F7377E68E827A5CA3F /* MessageBoxSwift-dummy.m */; };
+		D42290EB3A4C2CBD8E9A01E21B2CBF35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12F850E24DE839DA4F620D760B5B9DB6 /* Foundation.framework */; };
+		D9FE7CF961ADCFEECAD8B8FA6E52F42A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12F850E24DE839DA4F620D760B5B9DB6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3EB7B5100F64FDFB9BA65D8C9C9F2325 /* PBXContainerItemProxy */ = {
+		6A62D335159057D87AADDBA0B4215BF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C32D39E5FA642B5559FBCBCB7B8AF6C6;
-			remoteInfo = TopViewControllerSwift;
-		};
-		66A340B65F6719E29847B5F038E21A80 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 798BD048F78126554C8A10ED4D44AC97;
-			remoteInfo = MessageBoxSwift;
-		};
-		C1138609F14B8DF212C9A89902F4ADC0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8E404C67C5B7FD057F952560F920C479;
+			remoteGlobalIDString = 1447F86E29110C97B9606F9579E9E1F2;
 			remoteInfo = "Pods-MessageBoxSwift_Example";
 		};
-		C12FBED0058F6D19CE7D058C35A0C623 /* PBXContainerItemProxy */ = {
+		6A6A4B5316A7604102C4DAC29B1BDDA4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C32D39E5FA642B5559FBCBCB7B8AF6C6;
+			remoteGlobalIDString = 20C1ED2041AEDC2168D038DE62301263;
 			remoteInfo = TopViewControllerSwift;
+		};
+		C323070B1C4F010C93C6EA85F4839F8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C1ED2041AEDC2168D038DE62301263;
+			remoteInfo = TopViewControllerSwift;
+		};
+		F6C055CA7334F5EFD54548E66EAB10E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC8031AE91E588A71CD3941D28F172F5;
+			remoteInfo = MessageBoxSwift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CF231D9540EA130759B8C1B1A6B25E1 /* Pods-MessageBoxSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MessageBoxSwift_Tests-dummy.m"; sourceTree = "<group>"; };
-		22041A54FD1189491F69B45AB45969AF /* MessageBoxSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MessageBoxSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2985643AD0E07ACA652D1A838AA9F62B /* Pods_MessageBoxSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessageBoxSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		30E4FD94C62D44AFD8460604303DB409 /* TopViewControllerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TopViewControllerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A73DB669FAD80474CDC4B20A391723B /* Pods-MessageBoxSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MessageBoxSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3F47950283A61482D896444FF009EA1C /* MessageBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageBox.swift; path = MessageBoxSwift/Classes/MessageBox.swift; sourceTree = "<group>"; };
-		4647EE564F87C1EF695F3B69B9D14DED /* Pods-MessageBoxSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MessageBoxSwift_Example.modulemap"; sourceTree = "<group>"; };
-		46740EB4D3ADEE8DB10D01B545452E96 /* Pods-MessageBoxSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MessageBoxSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		49A43686279876925243A5DF3D34DC00 /* Pods-MessageBoxSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MessageBoxSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4BFA55A3D08C9B0315C8B2DC48EA355B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E3010134D2A717A0708E64DA19D51D4 /* Pods-MessageBoxSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MessageBoxSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		56B11EC1D77D2B35D85DF335693DCE96 /* Pods_MessageBoxSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessageBoxSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F4E71439F574596CF64D67E0F17B0EE /* TopViewControllerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TopViewControllerSwift-umbrella.h"; sourceTree = "<group>"; };
-		6B1A02409EFFAE4F32919AA285B00D59 /* Pods-MessageBoxSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessageBoxSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6C9178C4C87CA52307BF11257D8D7522 /* Pods-MessageBoxSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessageBoxSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6EEA4937FDCBCEABFCA63F486BC60E42 /* Pods-MessageBoxSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessageBoxSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		77B73745AC64EDB9944C7CB5ED853557 /* Pods-MessageBoxSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessageBoxSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7EC68BAB27BCED8C712E284A3075A504 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		7ED804996F4D657F1B4A937483978562 /* TopViewControllerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TopViewControllerSwift-dummy.m"; sourceTree = "<group>"; };
-		8F65DD8CA84086450CBE8DB23FE3E10B /* MessageBoxSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MessageBoxSwift-umbrella.h"; sourceTree = "<group>"; };
-		8F7BBC87E572EAA1B145E2786D084429 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94C10EF4B004D2E7D17F1394EDC5A89C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9597885E1A714566FF50D331FB5E6412 /* Pods-MessageBoxSwift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MessageBoxSwift_Example-resources.sh"; sourceTree = "<group>"; };
-		9878A70D5EFD3DF55CDAAA300A3E6C73 /* TopViewControllerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TopViewControllerSwift.modulemap; sourceTree = "<group>"; };
-		9D59D729D66A622B9004A1CFB654413A /* Pods-MessageBoxSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MessageBoxSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A5D93F5EC19FBA3486B1C83202211A91 /* TopViewControllerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TopViewControllerSwift.xcconfig; sourceTree = "<group>"; };
-		A99A9B9AE0118283DEE35D3CF5E5DADA /* Pods-MessageBoxSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MessageBoxSwift_Example-dummy.m"; sourceTree = "<group>"; };
-		B163A7B24ABB48098960670C0B19DED6 /* Pods-MessageBoxSwift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MessageBoxSwift_Tests-resources.sh"; sourceTree = "<group>"; };
-		B1B21B775FCACDEA883FB611D716279C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B555B4A6758FD742457406D43162CDC2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B75AFC2B8B8F446DAEB1A044E3F9EC7E /* TopViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TopViewController.swift; path = TopViewControllerSwift/Classes/TopViewController.swift; sourceTree = "<group>"; };
-		BF90BC51C9738A9D85FBB5F60B12E82B /* MessageBoxSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MessageBoxSwift.xcconfig; sourceTree = "<group>"; };
-		C7C912E29E074800882CF501754E3897 /* MessageBoxSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MessageBoxSwift.modulemap; sourceTree = "<group>"; };
-		CB60FD14CFECC04A9739077F1A8887F9 /* TopViewControllerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TopViewControllerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3F521B6BD5A32FB68AC9549A4571B4E /* TopViewControllerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TopViewControllerSwift-prefix.pch"; sourceTree = "<group>"; };
-		D609C960B4099AF456FCE8C9DD0596AE /* Pods-MessageBoxSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MessageBoxSwift_Example-umbrella.h"; sourceTree = "<group>"; };
-		DC0628E810FBE540E805B2BD0794DE6E /* MessageBoxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MessageBoxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF744D9A7921075DEE57908647E09C12 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFEA9E2B715E60633B4FB07D9D56E012 /* MessageBoxSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MessageBoxSwift-prefix.pch"; sourceTree = "<group>"; };
-		E3C0C2DFF3C27C00FC576A079FB393AA /* MessageBoxSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MessageBoxSwift-dummy.m"; sourceTree = "<group>"; };
-		F5F703AE294E3A72C708D4CA4BE43A8E /* Pods-MessageBoxSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MessageBoxSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FB10015FC761EBE9A7A0DCCEFF22EE71 /* Pods-MessageBoxSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MessageBoxSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FF0B2CBAAEA3E4EDE7059410B38112A4 /* Pods-MessageBoxSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MessageBoxSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		0607118C48BF7F886A173ABF84B307C5 /* Pods-MessageBoxSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MessageBoxSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		067F5E2C265AC331373CCCCACD756912 /* TopViewControllerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TopViewControllerSwift-umbrella.h"; sourceTree = "<group>"; };
+		11B70E9276EE92C25598450930352777 /* Pods-MessageBoxSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MessageBoxSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		12F850E24DE839DA4F620D760B5B9DB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		240261746B01D327596A62A5B32424E8 /* Pods-MessageBoxSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MessageBoxSwift_Tests-Info.plist"; sourceTree = "<group>"; };
+		2F68BA3E3B70AFD26C8949C66ADCA4CC /* Pods-MessageBoxSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessageBoxSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		30DDF594DF7E16790A33172C02393060 /* MessageBoxSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MessageBoxSwift-Info.plist"; sourceTree = "<group>"; };
+		37D700B64CEE7B23432E0E935CC29F8F /* Pods-MessageBoxSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MessageBoxSwift_Example-Info.plist"; sourceTree = "<group>"; };
+		3C44DE9D33473252A9B7792BB79E6627 /* TopViewControllerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TopViewControllerSwift-dummy.m"; sourceTree = "<group>"; };
+		4488AE4C1FF2FAC5C0ACD7525DBAE71E /* TopViewControllerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TopViewControllerSwift.modulemap; sourceTree = "<group>"; };
+		48211C4D1BD0913A1C1603E9347B4141 /* MessageBoxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MessageBoxSwift.framework; path = MessageBoxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F6B546E798AA46FFFA681AFB1C392E /* TopViewControllerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TopViewControllerSwift.xcconfig; sourceTree = "<group>"; };
+		61352618E19C87E0CFDC3DA7E553DE2E /* Pods-MessageBoxSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MessageBoxSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		6838C5A2753B9BFFC6758A35D2A5755C /* TopViewControllerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TopViewControllerSwift-Info.plist"; sourceTree = "<group>"; };
+		6F9E78E014CEB9CE5CD984659FD7804D /* Pods_MessageBoxSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MessageBoxSwift_Example.framework; path = "Pods-MessageBoxSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		709470187AF4D3B7D6A1513983412CBB /* Pods-MessageBoxSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MessageBoxSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7BF9A1882C2E30F7377E68E827A5CA3F /* MessageBoxSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MessageBoxSwift-dummy.m"; sourceTree = "<group>"; };
+		842A55E0C9D201E5FEDE244F7AB62457 /* Pods-MessageBoxSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessageBoxSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8CC975A585663524460399890C1C307D /* MessageBoxSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MessageBoxSwift.modulemap; sourceTree = "<group>"; };
+		9485CEBF5EC0A9FB4E93BB0FB2A4D54E /* Pods-MessageBoxSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MessageBoxSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		969CA2402FCB45B7B3580987CF5B6515 /* Pods_MessageBoxSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MessageBoxSwift_Tests.framework; path = "Pods-MessageBoxSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9DCA94ABF079E4FD9DE5F21005160A /* Pods-MessageBoxSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MessageBoxSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4A215AF94A0C6FD043266279E5759B7 /* Pods-MessageBoxSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessageBoxSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7C770E35992BC2B3673CD74CB2D865F /* Pods-MessageBoxSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessageBoxSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B8F79188C070A5C6D210859464C72817 /* TopViewControllerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TopViewControllerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24CD45C0104A3FCE2D7696154239986 /* TopViewControllerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TopViewControllerSwift.framework; path = TopViewControllerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AAA19C78AB58512D578635D72389DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D10ED1D244FF4C1F1AED609BB3FC3A49 /* MessageBoxSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MessageBoxSwift-prefix.pch"; sourceTree = "<group>"; };
+		D7C5691B1C932302BB3191E22B805A97 /* Pods-MessageBoxSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MessageBoxSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA9FB7F80ED3952C78E03D578C74FCC7 /* Pods-MessageBoxSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MessageBoxSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		DCF8E440DF5535A647BC96ED3EB31690 /* Pods-MessageBoxSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MessageBoxSwift_Example.modulemap"; sourceTree = "<group>"; };
+		DE2BD2AE668D0DCEE1C3118AB91F71AB /* MessageBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageBox.swift; path = MessageBoxSwift/Classes/MessageBox.swift; sourceTree = "<group>"; };
+		DEA802E0ABF859E346F8AA945ED674A2 /* MessageBoxSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MessageBoxSwift.xcconfig; sourceTree = "<group>"; };
+		EA8019581440BE547AA08175C2A1FA5B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EDCAD65973641A18BEC1FC446B2DC7BE /* MessageBoxSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MessageBoxSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F01CCDA4908E35D8F0A3B612CC690B0B /* MessageBoxSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MessageBoxSwift-umbrella.h"; sourceTree = "<group>"; };
+		F0886460E62772D37806530378DC64A3 /* Pods-MessageBoxSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MessageBoxSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F17DE80AC9AD05911A0B90F87808A5B0 /* TopViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TopViewController.swift; path = TopViewControllerSwift/Classes/TopViewController.swift; sourceTree = "<group>"; };
+		F1967C34C923DE357FB128CC9B2F6A77 /* TopViewControllerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TopViewControllerSwift-prefix.pch"; sourceTree = "<group>"; };
+		F1BF5B1231E72ED0E4F219A0458E0934 /* Pods-MessageBoxSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MessageBoxSwift_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		76B82D89563B3D1D53CDC1AD37BCFA35 /* Frameworks */ = {
+		56DA4C76B2AF08E3B3D2BCE687077A66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2E9A879390DF5A10B4865BBC3BE016E /* Foundation.framework in Frameworks */,
+				D9FE7CF961ADCFEECAD8B8FA6E52F42A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEDAEC54C89DB565C2EC54256246075B /* Frameworks */ = {
+		80C32152D959E10F57390E53F213DA71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AB26F12C2043A2146F8FB3787F155AA /* Foundation.framework in Frameworks */,
-				A79E30DC3E1293CEB1B9B539AAB73251 /* TopViewControllerSwift.framework in Frameworks */,
+				817C50106F78ED71FE6280CFFE115C2A /* Foundation.framework in Frameworks */,
+				A352A48EFB65420180E8C6BF9D4BDED2 /* TopViewControllerSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6F435C187AE3CB31F98E6B86599AC86 /* Frameworks */ = {
+		9EE2A9FA854C929FD6C316C4A4AA0540 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C48476946B9E56C290A33DDB9A6BAF02 /* Foundation.framework in Frameworks */,
+				D42290EB3A4C2CBD8E9A01E21B2CBF35 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F72684D9FB8157A21FE9972CD37A24BA /* Frameworks */ = {
+		C51FA57644216D75DCA5835ED914946E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4282E60FE5AC9184AD2D417F5F67F232 /* Foundation.framework in Frameworks */,
+				A4D08B88FD08320F560E4FB04FABCD91 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CE50BB2B645D677881297C34682CD2E /* TopViewControllerSwift */ = {
+		24438550569828DA9D0557C2CBC981D9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B75AFC2B8B8F446DAEB1A044E3F9EC7E /* TopViewController.swift */,
-				523EF1F24D7FB4CC92EE255CCAA03E16 /* Support Files */,
-			);
-			path = TopViewControllerSwift;
-			sourceTree = "<group>";
-		};
-		206856A26712BBCF84C62F5C16AD96DE /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E6E4173AEF5D66F0547C5A96DF053D67 /* Pods-MessageBoxSwift_Example */,
-				D890E3957B35C6CE9282D7C0DB58196E /* Pods-MessageBoxSwift_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		4B902969147A0970E1005B08DA8FDBE3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DC0628E810FBE540E805B2BD0794DE6E /* MessageBoxSwift.framework */,
-				56B11EC1D77D2B35D85DF335693DCE96 /* Pods_MessageBoxSwift_Example.framework */,
-				2985643AD0E07ACA652D1A838AA9F62B /* Pods_MessageBoxSwift_Tests.framework */,
-				30E4FD94C62D44AFD8460604303DB409 /* TopViewControllerSwift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		523EF1F24D7FB4CC92EE255CCAA03E16 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				94C10EF4B004D2E7D17F1394EDC5A89C /* Info.plist */,
-				9878A70D5EFD3DF55CDAAA300A3E6C73 /* TopViewControllerSwift.modulemap */,
-				A5D93F5EC19FBA3486B1C83202211A91 /* TopViewControllerSwift.xcconfig */,
-				7ED804996F4D657F1B4A937483978562 /* TopViewControllerSwift-dummy.m */,
-				D3F521B6BD5A32FB68AC9549A4571B4E /* TopViewControllerSwift-prefix.pch */,
-				5F4E71439F574596CF64D67E0F17B0EE /* TopViewControllerSwift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TopViewControllerSwift";
-			sourceTree = "<group>";
-		};
-		56506A65E1C3C0497DBAF329BA85F144 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				8F7BBC87E572EAA1B145E2786D084429 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BF97ACF2B4950F03D8677C712D5E1969 /* Development Pods */,
-				7F206458968F21BA342B81C38492E0F3 /* Frameworks */,
-				84C6D71C684993EA40652962377CD1C2 /* Pods */,
-				4B902969147A0970E1005B08DA8FDBE3 /* Products */,
-				206856A26712BBCF84C62F5C16AD96DE /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		7F206458968F21BA342B81C38492E0F3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CB60FD14CFECC04A9739077F1A8887F9 /* TopViewControllerSwift.framework */,
-				56506A65E1C3C0497DBAF329BA85F144 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		84C6D71C684993EA40652962377CD1C2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0CE50BB2B645D677881297C34682CD2E /* TopViewControllerSwift */,
+				59DDCDAA70D41AFB5651643042821DCB /* TopViewControllerSwift */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A37313EE7C00BA39CC0B26E0C368E60B /* Pod */ = {
+		34266D3F2F532CEEB649BD56BA0B9FD4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7EC68BAB27BCED8C712E284A3075A504 /* LICENSE */,
-				22041A54FD1189491F69B45AB45969AF /* MessageBoxSwift.podspec */,
-				B555B4A6758FD742457406D43162CDC2 /* README.md */,
+				C9AAA19C78AB58512D578635D72389DF /* LICENSE */,
+				EDCAD65973641A18BEC1FC446B2DC7BE /* MessageBoxSwift.podspec */,
+				EA8019581440BE547AA08175C2A1FA5B /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		BF97ACF2B4950F03D8677C712D5E1969 /* Development Pods */ = {
+		3EC825D5CF666348C095866CCD9C7422 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				EC0F3AF38912A2939BDF553FD2D4D353 /* MessageBoxSwift */,
+				12F850E24DE839DA4F620D760B5B9DB6 /* Foundation.framework */,
 			);
-			name = "Development Pods";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		D6B30D4E346BBAF45C1F8EC441DD83CF /* Support Files */ = {
+		59DDCDAA70D41AFB5651643042821DCB /* TopViewControllerSwift */ = {
 			isa = PBXGroup;
 			children = (
-				4BFA55A3D08C9B0315C8B2DC48EA355B /* Info.plist */,
-				C7C912E29E074800882CF501754E3897 /* MessageBoxSwift.modulemap */,
-				BF90BC51C9738A9D85FBB5F60B12E82B /* MessageBoxSwift.xcconfig */,
-				E3C0C2DFF3C27C00FC576A079FB393AA /* MessageBoxSwift-dummy.m */,
-				DFEA9E2B715E60633B4FB07D9D56E012 /* MessageBoxSwift-prefix.pch */,
-				8F65DD8CA84086450CBE8DB23FE3E10B /* MessageBoxSwift-umbrella.h */,
+				F17DE80AC9AD05911A0B90F87808A5B0 /* TopViewController.swift */,
+				96547D907BC3EA4C98F2A38F891FF024 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MessageBoxSwift";
+			name = TopViewControllerSwift;
+			path = TopViewControllerSwift;
 			sourceTree = "<group>";
 		};
-		D890E3957B35C6CE9282D7C0DB58196E /* Pods-MessageBoxSwift_Tests */ = {
+		5CB7E7AB6835DEF0A26245957A04E50F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1B21B775FCACDEA883FB611D716279C /* Info.plist */,
-				FF0B2CBAAEA3E4EDE7059410B38112A4 /* Pods-MessageBoxSwift_Tests.modulemap */,
-				3A73DB669FAD80474CDC4B20A391723B /* Pods-MessageBoxSwift_Tests-acknowledgements.markdown */,
-				F5F703AE294E3A72C708D4CA4BE43A8E /* Pods-MessageBoxSwift_Tests-acknowledgements.plist */,
-				1CF231D9540EA130759B8C1B1A6B25E1 /* Pods-MessageBoxSwift_Tests-dummy.m */,
-				9D59D729D66A622B9004A1CFB654413A /* Pods-MessageBoxSwift_Tests-frameworks.sh */,
-				B163A7B24ABB48098960670C0B19DED6 /* Pods-MessageBoxSwift_Tests-resources.sh */,
-				FB10015FC761EBE9A7A0DCCEFF22EE71 /* Pods-MessageBoxSwift_Tests-umbrella.h */,
-				6C9178C4C87CA52307BF11257D8D7522 /* Pods-MessageBoxSwift_Tests.debug.xcconfig */,
-				6EEA4937FDCBCEABFCA63F486BC60E42 /* Pods-MessageBoxSwift_Tests.release.xcconfig */,
+				48211C4D1BD0913A1C1603E9347B4141 /* MessageBoxSwift.framework */,
+				6F9E78E014CEB9CE5CD984659FD7804D /* Pods_MessageBoxSwift_Example.framework */,
+				969CA2402FCB45B7B3580987CF5B6515 /* Pods_MessageBoxSwift_Tests.framework */,
+				C24CD45C0104A3FCE2D7696154239986 /* TopViewControllerSwift.framework */,
 			);
-			name = "Pods-MessageBoxSwift_Tests";
-			path = "Target Support Files/Pods-MessageBoxSwift_Tests";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		E6E4173AEF5D66F0547C5A96DF053D67 /* Pods-MessageBoxSwift_Example */ = {
+		610DA7558362D447296A9C4E666DD276 /* MessageBoxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				DF744D9A7921075DEE57908647E09C12 /* Info.plist */,
-				4647EE564F87C1EF695F3B69B9D14DED /* Pods-MessageBoxSwift_Example.modulemap */,
-				49A43686279876925243A5DF3D34DC00 /* Pods-MessageBoxSwift_Example-acknowledgements.markdown */,
-				4E3010134D2A717A0708E64DA19D51D4 /* Pods-MessageBoxSwift_Example-acknowledgements.plist */,
-				A99A9B9AE0118283DEE35D3CF5E5DADA /* Pods-MessageBoxSwift_Example-dummy.m */,
-				46740EB4D3ADEE8DB10D01B545452E96 /* Pods-MessageBoxSwift_Example-frameworks.sh */,
-				9597885E1A714566FF50D331FB5E6412 /* Pods-MessageBoxSwift_Example-resources.sh */,
-				D609C960B4099AF456FCE8C9DD0596AE /* Pods-MessageBoxSwift_Example-umbrella.h */,
-				77B73745AC64EDB9944C7CB5ED853557 /* Pods-MessageBoxSwift_Example.debug.xcconfig */,
-				6B1A02409EFFAE4F32919AA285B00D59 /* Pods-MessageBoxSwift_Example.release.xcconfig */,
-			);
-			name = "Pods-MessageBoxSwift_Example";
-			path = "Target Support Files/Pods-MessageBoxSwift_Example";
-			sourceTree = "<group>";
-		};
-		EC0F3AF38912A2939BDF553FD2D4D353 /* MessageBoxSwift */ = {
-			isa = PBXGroup;
-			children = (
-				3F47950283A61482D896444FF009EA1C /* MessageBox.swift */,
-				A37313EE7C00BA39CC0B26E0C368E60B /* Pod */,
-				D6B30D4E346BBAF45C1F8EC441DD83CF /* Support Files */,
+				DE2BD2AE668D0DCEE1C3118AB91F71AB /* MessageBox.swift */,
+				34266D3F2F532CEEB649BD56BA0B9FD4 /* Pod */,
+				E2C504953AB45022BB03BFCB771326B6 /* Support Files */,
 			);
 			name = MessageBoxSwift;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		88951296AC23CDF275068D537C2F033D /* Pods-MessageBoxSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				61352618E19C87E0CFDC3DA7E553DE2E /* Pods-MessageBoxSwift_Tests.modulemap */,
+				F0886460E62772D37806530378DC64A3 /* Pods-MessageBoxSwift_Tests-acknowledgements.markdown */,
+				D7C5691B1C932302BB3191E22B805A97 /* Pods-MessageBoxSwift_Tests-acknowledgements.plist */,
+				F1BF5B1231E72ED0E4F219A0458E0934 /* Pods-MessageBoxSwift_Tests-dummy.m */,
+				240261746B01D327596A62A5B32424E8 /* Pods-MessageBoxSwift_Tests-Info.plist */,
+				709470187AF4D3B7D6A1513983412CBB /* Pods-MessageBoxSwift_Tests-umbrella.h */,
+				A4A215AF94A0C6FD043266279E5759B7 /* Pods-MessageBoxSwift_Tests.debug.xcconfig */,
+				842A55E0C9D201E5FEDE244F7AB62457 /* Pods-MessageBoxSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-MessageBoxSwift_Tests";
+			path = "Target Support Files/Pods-MessageBoxSwift_Tests";
+			sourceTree = "<group>";
+		};
+		8C4DD496E4B07F41B74FEB103EFFBD23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8F79188C070A5C6D210859464C72817 /* TopViewControllerSwift.framework */,
+				3EC825D5CF666348C095866CCD9C7422 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96547D907BC3EA4C98F2A38F891FF024 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4488AE4C1FF2FAC5C0ACD7525DBAE71E /* TopViewControllerSwift.modulemap */,
+				59F6B546E798AA46FFFA681AFB1C392E /* TopViewControllerSwift.xcconfig */,
+				3C44DE9D33473252A9B7792BB79E6627 /* TopViewControllerSwift-dummy.m */,
+				6838C5A2753B9BFFC6758A35D2A5755C /* TopViewControllerSwift-Info.plist */,
+				F1967C34C923DE357FB128CC9B2F6A77 /* TopViewControllerSwift-prefix.pch */,
+				067F5E2C265AC331373CCCCACD756912 /* TopViewControllerSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TopViewControllerSwift";
+			sourceTree = "<group>";
+		};
+		C8AD0305D73225F4CB9783563DE359D9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E40A485A4743F1958AE670FDD2C201D8 /* Pods-MessageBoxSwift_Example */,
+				88951296AC23CDF275068D537C2F033D /* Pods-MessageBoxSwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CFAE238AE64D9580D1F2C8A3625C9821 /* Development Pods */,
+				8C4DD496E4B07F41B74FEB103EFFBD23 /* Frameworks */,
+				24438550569828DA9D0557C2CBC981D9 /* Pods */,
+				5CB7E7AB6835DEF0A26245957A04E50F /* Products */,
+				C8AD0305D73225F4CB9783563DE359D9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFAE238AE64D9580D1F2C8A3625C9821 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				610DA7558362D447296A9C4E666DD276 /* MessageBoxSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E2C504953AB45022BB03BFCB771326B6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CC975A585663524460399890C1C307D /* MessageBoxSwift.modulemap */,
+				DEA802E0ABF859E346F8AA945ED674A2 /* MessageBoxSwift.xcconfig */,
+				7BF9A1882C2E30F7377E68E827A5CA3F /* MessageBoxSwift-dummy.m */,
+				30DDF594DF7E16790A33172C02393060 /* MessageBoxSwift-Info.plist */,
+				D10ED1D244FF4C1F1AED609BB3FC3A49 /* MessageBoxSwift-prefix.pch */,
+				F01CCDA4908E35D8F0A3B612CC690B0B /* MessageBoxSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MessageBoxSwift";
+			sourceTree = "<group>";
+		};
+		E40A485A4743F1958AE670FDD2C201D8 /* Pods-MessageBoxSwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DCF8E440DF5535A647BC96ED3EB31690 /* Pods-MessageBoxSwift_Example.modulemap */,
+				9485CEBF5EC0A9FB4E93BB0FB2A4D54E /* Pods-MessageBoxSwift_Example-acknowledgements.markdown */,
+				0607118C48BF7F886A173ABF84B307C5 /* Pods-MessageBoxSwift_Example-acknowledgements.plist */,
+				DA9FB7F80ED3952C78E03D578C74FCC7 /* Pods-MessageBoxSwift_Example-dummy.m */,
+				9A9DCA94ABF079E4FD9DE5F21005160A /* Pods-MessageBoxSwift_Example-frameworks.sh */,
+				37D700B64CEE7B23432E0E935CC29F8F /* Pods-MessageBoxSwift_Example-Info.plist */,
+				11B70E9276EE92C25598450930352777 /* Pods-MessageBoxSwift_Example-umbrella.h */,
+				B7C770E35992BC2B3673CD74CB2D865F /* Pods-MessageBoxSwift_Example.debug.xcconfig */,
+				2F68BA3E3B70AFD26C8949C66ADCA4CC /* Pods-MessageBoxSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-MessageBoxSwift_Example";
+			path = "Target Support Files/Pods-MessageBoxSwift_Example";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		03A7B876B6E23D7A5FD28F5A87C21737 /* Headers */ = {
+		04169032418CDBFE87474B807487D182 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44F5602D55E099FA67699327B3FD2B2F /* Pods-MessageBoxSwift_Tests-umbrella.h in Headers */,
+				2B561528D5F3087EDA572ECC9E040718 /* MessageBoxSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		111F055B8AC36E9F9D8F340BFA39E760 /* Headers */ = {
+		1575C104F00D96935B1BF881D204A283 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5B1B48F5F2C88587ED5AFC5E66D2646 /* Pods-MessageBoxSwift_Example-umbrella.h in Headers */,
+				CC9BA8520935C45DD0021F7D3EE649B5 /* TopViewControllerSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		24B707A8ECDDEA9E681E5DBF386CE811 /* Headers */ = {
+		BA1EE1253D6BB9E9717E39FA1A3D7150 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1884DCF376FE0284E85EB78CB65FAB00 /* TopViewControllerSwift-umbrella.h in Headers */,
+				7848E10300DF3053FEEA5D064546A6EC /* Pods-MessageBoxSwift_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D57112E57D9A60EB23B1BC0D4483B4EE /* Headers */ = {
+		D18016D9D4FE2FB27819016694A04A3C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C69854A7D55FFD65DCF0CCBCDCF475E3 /* MessageBoxSwift-umbrella.h in Headers */,
+				35276F9C8CE1A4EF668E31B63FC7C944 /* Pods-MessageBoxSwift_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		798BD048F78126554C8A10ED4D44AC97 /* MessageBoxSwift */ = {
+		1447F86E29110C97B9606F9579E9E1F2 /* Pods-MessageBoxSwift_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D929985376732C3F3ECA207F26F5500 /* Build configuration list for PBXNativeTarget "MessageBoxSwift" */;
+			buildConfigurationList = E3FBAE3D65FA371DF4B0A9E0606DA33A /* Build configuration list for PBXNativeTarget "Pods-MessageBoxSwift_Example" */;
 			buildPhases = (
-				1C861580C63ECCB4AEC6213B75BD254F /* Sources */,
-				AEDAEC54C89DB565C2EC54256246075B /* Frameworks */,
-				D57112E57D9A60EB23B1BC0D4483B4EE /* Headers */,
+				BA1EE1253D6BB9E9717E39FA1A3D7150 /* Headers */,
+				4487890F169D0F4B5F4F906AF78B9929 /* Sources */,
+				9EE2A9FA854C929FD6C316C4A4AA0540 /* Frameworks */,
+				B3907DA28937CB907D70801DC5005AA8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A1DE1A3BB57D580913957264062C2AAF /* PBXTargetDependency */,
-			);
-			name = MessageBoxSwift;
-			productName = MessageBoxSwift;
-			productReference = DC0628E810FBE540E805B2BD0794DE6E /* MessageBoxSwift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8E404C67C5B7FD057F952560F920C479 /* Pods-MessageBoxSwift_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D1A86E8A0A986F13E7F7956ACBC3A022 /* Build configuration list for PBXNativeTarget "Pods-MessageBoxSwift_Example" */;
-			buildPhases = (
-				85B1C3F1A3D973670F46C8BF84D694FB /* Sources */,
-				F72684D9FB8157A21FE9972CD37A24BA /* Frameworks */,
-				111F055B8AC36E9F9D8F340BFA39E760 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6984EA2C752E1B7E47F2991A16161BAA /* PBXTargetDependency */,
-				CC0BE0DF878534C70F43DD64D6F059DF /* PBXTargetDependency */,
+				2165E4A21F2388EED107D15781D1B906 /* PBXTargetDependency */,
+				3310F7F5C19DAAC8F61A555130A7A20B /* PBXTargetDependency */,
 			);
 			name = "Pods-MessageBoxSwift_Example";
 			productName = "Pods-MessageBoxSwift_Example";
-			productReference = 56B11EC1D77D2B35D85DF335693DCE96 /* Pods_MessageBoxSwift_Example.framework */;
+			productReference = 6F9E78E014CEB9CE5CD984659FD7804D /* Pods_MessageBoxSwift_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A241E342EEFE888A8FA16CBCD84B59AF /* Pods-MessageBoxSwift_Tests */ = {
+		20C1ED2041AEDC2168D038DE62301263 /* TopViewControllerSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA69BF79BBF198B4C01612324A2F4812 /* Build configuration list for PBXNativeTarget "Pods-MessageBoxSwift_Tests" */;
+			buildConfigurationList = FDF879C9125B5063BBE18446D7637D05 /* Build configuration list for PBXNativeTarget "TopViewControllerSwift" */;
 			buildPhases = (
-				3000C1F6E44DD547F2F4E0CA517B58CF /* Sources */,
-				F6F435C187AE3CB31F98E6B86599AC86 /* Frameworks */,
-				03A7B876B6E23D7A5FD28F5A87C21737 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3B6983A34586A6450A4F2E421FD80ABD /* PBXTargetDependency */,
-			);
-			name = "Pods-MessageBoxSwift_Tests";
-			productName = "Pods-MessageBoxSwift_Tests";
-			productReference = 2985643AD0E07ACA652D1A838AA9F62B /* Pods_MessageBoxSwift_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C32D39E5FA642B5559FBCBCB7B8AF6C6 /* TopViewControllerSwift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9B77FE5F921FA2F4D675634C8F8016B7 /* Build configuration list for PBXNativeTarget "TopViewControllerSwift" */;
-			buildPhases = (
-				10BE5EF239CA7E1625CDAA807624166C /* Sources */,
-				76B82D89563B3D1D53CDC1AD37BCFA35 /* Frameworks */,
-				24B707A8ECDDEA9E681E5DBF386CE811 /* Headers */,
+				1575C104F00D96935B1BF881D204A283 /* Headers */,
+				1950FC5170E8F9CD80C11CC6EAF380E3 /* Sources */,
+				56DA4C76B2AF08E3B3D2BCE687077A66 /* Frameworks */,
+				753B17D5A7EEEBDD99BB1E45021F950D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -405,107 +366,175 @@
 			);
 			name = TopViewControllerSwift;
 			productName = TopViewControllerSwift;
-			productReference = 30E4FD94C62D44AFD8460604303DB409 /* TopViewControllerSwift.framework */;
+			productReference = C24CD45C0104A3FCE2D7696154239986 /* TopViewControllerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC8031AE91E588A71CD3941D28F172F5 /* MessageBoxSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC229F1FD12E5EDA897A58A156B3559D /* Build configuration list for PBXNativeTarget "MessageBoxSwift" */;
+			buildPhases = (
+				04169032418CDBFE87474B807487D182 /* Headers */,
+				77CF9B26ED178CEB401A017CD0738FC1 /* Sources */,
+				80C32152D959E10F57390E53F213DA71 /* Frameworks */,
+				40B7972D5E0B9B2194099D950C045F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F46278EF8FAC4594DFEEB9FA4CC7E76C /* PBXTargetDependency */,
+			);
+			name = MessageBoxSwift;
+			productName = MessageBoxSwift;
+			productReference = 48211C4D1BD0913A1C1603E9347B4141 /* MessageBoxSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCE5CA2C11BB883801B064E3D19445AF /* Pods-MessageBoxSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E365F788CAC95C99FBD17DFCE69D543 /* Build configuration list for PBXNativeTarget "Pods-MessageBoxSwift_Tests" */;
+			buildPhases = (
+				D18016D9D4FE2FB27819016694A04A3C /* Headers */,
+				04897C5B6208AD87CBB6CF81D546D21E /* Sources */,
+				C51FA57644216D75DCA5835ED914946E /* Frameworks */,
+				B1B559F39B93909430FAB197FD90E187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACE8DAEA13A9B4D2F5F7B06F257CD82 /* PBXTargetDependency */,
+			);
+			name = "Pods-MessageBoxSwift_Tests";
+			productName = "Pods-MessageBoxSwift_Tests";
+			productReference = 969CA2402FCB45B7B3580987CF5B6515 /* Pods_MessageBoxSwift_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4B902969147A0970E1005B08DA8FDBE3 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5CB7E7AB6835DEF0A26245957A04E50F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				798BD048F78126554C8A10ED4D44AC97 /* MessageBoxSwift */,
-				8E404C67C5B7FD057F952560F920C479 /* Pods-MessageBoxSwift_Example */,
-				A241E342EEFE888A8FA16CBCD84B59AF /* Pods-MessageBoxSwift_Tests */,
-				C32D39E5FA642B5559FBCBCB7B8AF6C6 /* TopViewControllerSwift */,
+				BC8031AE91E588A71CD3941D28F172F5 /* MessageBoxSwift */,
+				1447F86E29110C97B9606F9579E9E1F2 /* Pods-MessageBoxSwift_Example */,
+				FCE5CA2C11BB883801B064E3D19445AF /* Pods-MessageBoxSwift_Tests */,
+				20C1ED2041AEDC2168D038DE62301263 /* TopViewControllerSwift */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		40B7972D5E0B9B2194099D950C045F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753B17D5A7EEEBDD99BB1E45021F950D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B559F39B93909430FAB197FD90E187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3907DA28937CB907D70801DC5005AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		10BE5EF239CA7E1625CDAA807624166C /* Sources */ = {
+		04897C5B6208AD87CBB6CF81D546D21E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AFE7FAF45D629607E783ABB2AA03FA0 /* TopViewController.swift in Sources */,
-				F6FAD0211CB44A8E1B219E01C50C5F3E /* TopViewControllerSwift-dummy.m in Sources */,
+				8484CF261C3F2511E6562096C71FC17E /* Pods-MessageBoxSwift_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1C861580C63ECCB4AEC6213B75BD254F /* Sources */ = {
+		1950FC5170E8F9CD80C11CC6EAF380E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD964D9D9A56374E1360ACC2E4FF8CA0 /* MessageBoxSwift-dummy.m in Sources */,
-				57B6220E9CD5B2F506BD6CA6E4D5DD30 /* MessageBox.swift in Sources */,
+				54EEF43426CA74F2547FF66C81F4D4DB /* TopViewController.swift in Sources */,
+				A31E18EE914C57920194BE05C3A6F820 /* TopViewControllerSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3000C1F6E44DD547F2F4E0CA517B58CF /* Sources */ = {
+		4487890F169D0F4B5F4F906AF78B9929 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79F262EE8052086243D48F7E02AD93AF /* Pods-MessageBoxSwift_Tests-dummy.m in Sources */,
+				47FF0FC809075968C23E909BA999D58C /* Pods-MessageBoxSwift_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85B1C3F1A3D973670F46C8BF84D694FB /* Sources */ = {
+		77CF9B26ED178CEB401A017CD0738FC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				721046F32F21A3E2303CC1B7FA79460E /* Pods-MessageBoxSwift_Example-dummy.m in Sources */,
+				04BA362544A6B4282C86BBB4CEEEE131 /* MessageBox.swift in Sources */,
+				D0B31526AEBA86B16E647BB3D9E00912 /* MessageBoxSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3B6983A34586A6450A4F2E421FD80ABD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-MessageBoxSwift_Example";
-			target = 8E404C67C5B7FD057F952560F920C479 /* Pods-MessageBoxSwift_Example */;
-			targetProxy = C1138609F14B8DF212C9A89902F4ADC0 /* PBXContainerItemProxy */;
-		};
-		6984EA2C752E1B7E47F2991A16161BAA /* PBXTargetDependency */ = {
+		2165E4A21F2388EED107D15781D1B906 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MessageBoxSwift;
-			target = 798BD048F78126554C8A10ED4D44AC97 /* MessageBoxSwift */;
-			targetProxy = 66A340B65F6719E29847B5F038E21A80 /* PBXContainerItemProxy */;
+			target = BC8031AE91E588A71CD3941D28F172F5 /* MessageBoxSwift */;
+			targetProxy = F6C055CA7334F5EFD54548E66EAB10E3 /* PBXContainerItemProxy */;
 		};
-		A1DE1A3BB57D580913957264062C2AAF /* PBXTargetDependency */ = {
+		3310F7F5C19DAAC8F61A555130A7A20B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TopViewControllerSwift;
-			target = C32D39E5FA642B5559FBCBCB7B8AF6C6 /* TopViewControllerSwift */;
-			targetProxy = C12FBED0058F6D19CE7D058C35A0C623 /* PBXContainerItemProxy */;
+			target = 20C1ED2041AEDC2168D038DE62301263 /* TopViewControllerSwift */;
+			targetProxy = 6A6A4B5316A7604102C4DAC29B1BDDA4 /* PBXContainerItemProxy */;
 		};
-		CC0BE0DF878534C70F43DD64D6F059DF /* PBXTargetDependency */ = {
+		F46278EF8FAC4594DFEEB9FA4CC7E76C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TopViewControllerSwift;
-			target = C32D39E5FA642B5559FBCBCB7B8AF6C6 /* TopViewControllerSwift */;
-			targetProxy = 3EB7B5100F64FDFB9BA65D8C9C9F2325 /* PBXContainerItemProxy */;
+			target = 20C1ED2041AEDC2168D038DE62301263 /* TopViewControllerSwift */;
+			targetProxy = C323070B1C4F010C93C6EA85F4839F8E /* PBXContainerItemProxy */;
+		};
+		FACE8DAEA13A9B4D2F5F7B06F257CD82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MessageBoxSwift_Example";
+			target = 1447F86E29110C97B9606F9579E9E1F2 /* Pods-MessageBoxSwift_Example */;
+			targetProxy = 6A62D335159057D87AADDBA0B4215BF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4AEE0F638FDDF6429C49645637D23C2E /* Debug */ = {
+		050869454F228EE62DAEB3F0DB00F580 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C9178C4C87CA52307BF11257D8D7522 /* Pods-MessageBoxSwift_Tests.debug.xcconfig */;
+			baseConfigurationReference = 2F68BA3E3B70AFD26C8949C66ADCA4CC /* Pods-MessageBoxSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -517,7 +546,168 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MessageBoxSwift_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MessageBoxSwift_Example/Pods-MessageBoxSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MessageBoxSwift_Example/Pods-MessageBoxSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18E4C0ED78A23C649F822EEC730ACF9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F6B546E798AA46FFFA681AFB1C392E /* TopViewControllerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TopViewControllerSwift/TopViewControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TopViewControllerSwift/TopViewControllerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TopViewControllerSwift/TopViewControllerSwift.modulemap";
+				PRODUCT_MODULE_NAME = TopViewControllerSwift;
+				PRODUCT_NAME = TopViewControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3740D83CDD090877D07A5AE66C4E6185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA802E0ABF859E346F8AA945ED674A2 /* MessageBoxSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MessageBoxSwift/MessageBoxSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MessageBoxSwift/MessageBoxSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MessageBoxSwift/MessageBoxSwift.modulemap";
+				PRODUCT_MODULE_NAME = MessageBoxSwift;
+				PRODUCT_NAME = MessageBoxSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5688BA462AEF5F1CB974F8D21B57774D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F6B546E798AA46FFFA681AFB1C392E /* TopViewControllerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TopViewControllerSwift/TopViewControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TopViewControllerSwift/TopViewControllerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TopViewControllerSwift/TopViewControllerSwift.modulemap";
+				PRODUCT_MODULE_NAME = TopViewControllerSwift;
+				PRODUCT_NAME = TopViewControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75B3D6974B1384EAD1F7B679E50167A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C770E35992BC2B3673CD74CB2D865F /* Pods-MessageBoxSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MessageBoxSwift_Example/Pods-MessageBoxSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MessageBoxSwift_Example/Pods-MessageBoxSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A52457E86EBA741BB15F9F73C7FC034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A215AF94A0C6FD043266279E5759B7 /* Pods-MessageBoxSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MessageBoxSwift_Tests/Pods-MessageBoxSwift_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -536,71 +726,7 @@
 			};
 			name = Debug;
 		};
-		71D82611FC70CA43B68914D9AE6972A5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5D93F5EC19FBA3486B1C83202211A91 /* TopViewControllerSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TopViewControllerSwift/TopViewControllerSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TopViewControllerSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TopViewControllerSwift/TopViewControllerSwift.modulemap";
-				PRODUCT_MODULE_NAME = TopViewControllerSwift;
-				PRODUCT_NAME = TopViewControllerSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		74E09E1F777B483D9902B5440E7DFBB5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF90BC51C9738A9D85FBB5F60B12E82B /* MessageBoxSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MessageBoxSwift/MessageBoxSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MessageBoxSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MessageBoxSwift/MessageBoxSwift.modulemap";
-				PRODUCT_MODULE_NAME = MessageBoxSwift;
-				PRODUCT_NAME = MessageBoxSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -632,8 +758,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -654,51 +778,21 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		97126D0F626E0B51979107B315FC0636 /* Release */ = {
+		C807E4AC242A3ED74D47A14087D07327 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF90BC51C9738A9D85FBB5F60B12E82B /* MessageBoxSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MessageBoxSwift/MessageBoxSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MessageBoxSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MessageBoxSwift/MessageBoxSwift.modulemap";
-				PRODUCT_MODULE_NAME = MessageBoxSwift;
-				PRODUCT_NAME = MessageBoxSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9A8E799572EED71BCBA6F8DCB6893B97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77B73745AC64EDB9944C7CB5ED853557 /* Pods-MessageBoxSwift_Example.debug.xcconfig */;
+			baseConfigurationReference = 842A55E0C9D201E5FEDE244F7AB62457 /* Pods-MessageBoxSwift_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -710,42 +804,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MessageBoxSwift_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MessageBoxSwift_Example/Pods-MessageBoxSwift_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ACF994E5B8DBC706ECFD14C42B570293 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EEA4937FDCBCEABFCA63F486BC60E42 /* Pods-MessageBoxSwift_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MessageBoxSwift_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MessageBoxSwift_Tests/Pods-MessageBoxSwift_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -765,7 +824,39 @@
 			};
 			name = Release;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		E70A6E4E3500A99995A64289FDC3BDF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA802E0ABF859E346F8AA945ED674A2 /* MessageBoxSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MessageBoxSwift/MessageBoxSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MessageBoxSwift/MessageBoxSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MessageBoxSwift/MessageBoxSwift.modulemap";
+				PRODUCT_MODULE_NAME = MessageBoxSwift;
+				PRODUCT_NAME = MessageBoxSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -797,8 +888,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -817,129 +906,65 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		DE939E6039451BA0251128FA0FD44F85 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5D93F5EC19FBA3486B1C83202211A91 /* TopViewControllerSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TopViewControllerSwift/TopViewControllerSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TopViewControllerSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TopViewControllerSwift/TopViewControllerSwift.modulemap";
-				PRODUCT_MODULE_NAME = TopViewControllerSwift;
-				PRODUCT_NAME = TopViewControllerSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F68BDC898F7C214F67DDF7A0786ED3F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B1A02409EFFAE4F32919AA285B00D59 /* Pods-MessageBoxSwift_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MessageBoxSwift_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MessageBoxSwift_Example/Pods-MessageBoxSwift_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D929985376732C3F3ECA207F26F5500 /* Build configuration list for PBXNativeTarget "MessageBoxSwift" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				74E09E1F777B483D9902B5440E7DFBB5 /* Debug */,
-				97126D0F626E0B51979107B315FC0636 /* Release */,
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		8E365F788CAC95C99FBD17DFCE69D543 /* Build configuration list for PBXNativeTarget "Pods-MessageBoxSwift_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				9A52457E86EBA741BB15F9F73C7FC034 /* Debug */,
+				C807E4AC242A3ED74D47A14087D07327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B77FE5F921FA2F4D675634C8F8016B7 /* Build configuration list for PBXNativeTarget "TopViewControllerSwift" */ = {
+		BC229F1FD12E5EDA897A58A156B3559D /* Build configuration list for PBXNativeTarget "MessageBoxSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71D82611FC70CA43B68914D9AE6972A5 /* Debug */,
-				DE939E6039451BA0251128FA0FD44F85 /* Release */,
+				3740D83CDD090877D07A5AE66C4E6185 /* Debug */,
+				E70A6E4E3500A99995A64289FDC3BDF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA69BF79BBF198B4C01612324A2F4812 /* Build configuration list for PBXNativeTarget "Pods-MessageBoxSwift_Tests" */ = {
+		E3FBAE3D65FA371DF4B0A9E0606DA33A /* Build configuration list for PBXNativeTarget "Pods-MessageBoxSwift_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AEE0F638FDDF6429C49645637D23C2E /* Debug */,
-				ACF994E5B8DBC706ECFD14C42B570293 /* Release */,
+				75B3D6974B1384EAD1F7B679E50167A5 /* Debug */,
+				050869454F228EE62DAEB3F0DB00F580 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1A86E8A0A986F13E7F7956ACBC3A022 /* Build configuration list for PBXNativeTarget "Pods-MessageBoxSwift_Example" */ = {
+		FDF879C9125B5063BBE18446D7637D05 /* Build configuration list for PBXNativeTarget "TopViewControllerSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A8E799572EED71BCBA6F8DCB6893B97 /* Debug */,
-				F68BDC898F7C214F67DDF7A0786ED3F5 /* Release */,
+				5688BA462AEF5F1CB974F8D21B57774D /* Debug */,
+				18E4C0ED78A23C649F822EEC730ACF9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
