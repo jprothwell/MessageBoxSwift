@@ -6,7 +6,7 @@ public func MessageBox(_ message: String
     , title: String? = ""
     , defaultActionTitle: String? = "确定"
     , cancelActionTitle: String? = nil
-    , preferredStyle: UIAlertControllerStyle = .alert
+    , preferredStyle: UIAlertController.Style = .alert
     , defaultHandler: (() ->Void)? = nil
     , cancelHandler: (() -> Void)? = nil)
 {
